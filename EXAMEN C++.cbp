@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EXAMEN C++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EXAMEN C++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/EXAMEN C++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Kit_de_voyage.h" />
+		<Unit filename="include/Option voyage.h" />
+		<Unit filename="include/Sejour.h" />
+		<Unit filename="include/affichable.h" />
+		<Unit filename="include/offre_combinee.h" />
+		<Unit filename="include/transport.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Kit_de_voyage.cpp" />
+		<Unit filename="src/Option voyage.cpp" />
+		<Unit filename="src/Sejour.cpp" />
+		<Unit filename="src/affichable.cpp" />
+		<Unit filename="src/offre_combinee.cpp" />
+		<Unit filename="src/transport.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

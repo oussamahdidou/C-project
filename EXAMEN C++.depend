@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1685355235 source:c:\users\asus\onedrive\documents\tp serie n 1\examen c++\main.cpp
+	<iostream>
+
+1685355385 source:c:\users\asus\onedrive\documents\tp serie n 1\examen c++\src\option voyage.cpp
+	"Option voyage.h"
+	<string.h>
+	<ostream>
+
+1685354958 c:\users\asus\onedrive\documents\tp serie n 1\examen c++\include\option voyage.h
+	"affichable.h"
+	<iostream>
+	<ostream>
+
+1685354298 source:c:\users\asus\onedrive\documents\tp serie n 1\examen c++\src\affichable.cpp
+	"affichable.h"
+
+1685355330 c:\users\asus\onedrive\documents\tp serie n 1\examen c++\include\affichable.h
+	<iostream>
+	<ostream>
+
+1685352481 source:c:\users\asus\onedrive\documents\tp serie n 1\examen c++\src\sejour.cpp
+	"Sejour.h"
+
+1685352447 c:\users\asus\onedrive\documents\tp serie n 1\examen c++\include\sejour.h
+	"Option voyage.h"
+
+1685352077 source:c:\users\asus\onedrive\documents\tp serie n 1\examen c++\src\transport.cpp
+	"transport.h"
+
+1685355149 c:\users\asus\onedrive\documents\tp serie n 1\examen c++\include\transport.h
+	"Option voyage.h"
+
+1685352518 source:c:\users\asus\onedrive\documents\tp serie n 1\examen c++\src\offre_combinee.cpp
+	"offre_combinee.h"
+
+1685352280 c:\users\asus\onedrive\documents\tp serie n 1\examen c++\include\offre_combinee.h
+	"Sejour.h"
+	"transport.h"
+
+1685351294 source:c:\users\asus\onedrive\documents\tp serie n 1\examen c++\src\kit_de_voyage.cpp
+	"Kit_de_voyage.h"
+
+1685351439 c:\users\asus\onedrive\documents\tp serie n 1\examen c++\include\kit_de_voyage.h
+	"offre_combinee.h"
+	"affichable.h"
+	"vector"
+
